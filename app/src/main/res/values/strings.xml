@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppWeather</string>
+    <string name="choose_city">Choose city:</string>
+    <string name="search">Search</string>
+    <string name="current_location">Current location</string>
+    <string name="suggestions">Suggestions:</string>
+    <string name="type_a_city">Type a city</string>
+    <string name="tokyo" translatable="false">Tokyo</string>
+    <string name="new_york" translatable="false">New York</string>
+    <string name="paris" translatable="false">Paris</string>
+    <string name="ho_chi_minh">Ho Chi Minh</string>
+    <string name="tampere" translatable="false">Tampere</string>
+    <string name="city_name">City name</string>
+    <string name="__" translatable="false">--</string>
+    <string name="h_l" translatable="false">H:-- L:--</string>
+    <string name="sunrise">SUNRISE</string>
+    <string name="sunset">SUNSET</string>
+    <string name="humidity">HUMIDITY</string>
+    <string name="feels_like">FEELS LIKE</string>
+    <string name="wind">WIND</string>
+    <string name="visibility">VISIBILITY</string>
+    <string name="____" translatable="false">--:--</string>
+    <string name="km_h" translatable="false">-- km/h</string>
+    <string name="km" translatable="false">-- km</string>
+</resources>

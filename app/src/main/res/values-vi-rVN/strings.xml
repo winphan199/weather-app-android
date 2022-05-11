@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppWeather</string>
+    <string name="choose_city">Chọn thành phố:</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="current_location">Vị trí hiện tại</string>
+    <string name="suggestions">Gợi ý:</string>
+    <string name="type_a_city">Gõ tên thành phố</string>
+    <string name="ho_chi_minh">Hồ Chí Minh</string>
+    <string name="city_name">Tên thành phố</string>
+    <string name="sunrise">MỌC</string>
+    <string name="sunset">LẶN</string>
+    <string name="humidity">ĐỘ ẨM</string>
+    <string name="feels_like">CẢM THẤY</string>
+    <string name="wind">GIÓ</string>
+    <string name="visibility">TẦM NHÌN</string>
+</resources>

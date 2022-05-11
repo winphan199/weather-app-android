@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/locationtext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Type a city"
+        android:inputType="textPersonName"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toStartOf="@+id/imgcity1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choosecitylabel" />
+
+    <TextView
+        android:id="@+id/choosecitylabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="Choose city:"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/imgcity1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/searchbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="searchCity"
+        android:text="Search"
+        app:layout_constraintEnd_toStartOf="@+id/imgcity1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationtext" />
+
+    <Button
+        android:id="@+id/currentlocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="startGPS"
+        android:text="current location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgcity3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchbtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgcity2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="New York"
+        android:onClick="searchNY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/newyork" />
+
+    <ImageView
+        android:id="@+id/imgcity3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Paris"
+        android:onClick="searchParis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgcity4"
+        app:srcCompat="@drawable/paris" />
+
+    <ImageView
+        android:id="@+id/imgcity4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Ho Chi Minh"
+        android:onClick="searchVN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/hochiminh" />
+
+    <ImageView
+        android:id="@+id/imgcity1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:contentDescription="Tokyo"
+        android:onClick='searchHel'
+        app:layout_constraintEnd_toStartOf="@+id/imgcity2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tokyo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
